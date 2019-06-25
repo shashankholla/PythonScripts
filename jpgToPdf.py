@@ -4,9 +4,9 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--input", help="input folder names with starting letter")
-parser.add_argument("-o", "--output", help="output file name")
-parser.add_argument("-r", "--res", help="output file name")
+parser.add_argument("-i", "--input", help="input folder names with starting letter. Default is Volume*")
+parser.add_argument("-o", "--output", help="output file name. Default is op.pdf")
+parser.add_argument("-r", "--res", help="output resolution. Default is 100")
 args = parser.parse_args()
 
 if args.input:
