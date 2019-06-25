@@ -1,7 +1,5 @@
 import glob
 from PIL import Image
-from fpdf import FPDF
-import numpy as np
 import argparse
 
 
