@@ -1,0 +1,65 @@
+
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    max-width: 300px;
+}
+
+.mTable{
+    display: inline-block;
+    width: 600px;
+}
+td{
+    
+-webkit-border-radius: 4px;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px;
+}
+
+.me{
+    background: #efefef;
+    text-align: right;
+    float: right;
+    display: inline-block;
+     
+}
+
+.to{
+    background: #aabbcc;
+    text-align: left;
+    float: left;
+   
+}
+<style>
+ 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; 
+}
+
+
+ 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+ 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
